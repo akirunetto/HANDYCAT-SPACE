@@ -1,11 +1,11 @@
-# Hand-Controlled Terminal Shooter: Bullet Hell Edition
+# HANDYCAT SPACE
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Pygame](https://img.shields.io/badge/Library-Pygame-green)
 ![MediaPipe](https://img.shields.io/badge/AI-MediaPipe-orange)
 ![OpenCV](https://img.shields.io/badge/Vision-OpenCV-red)
 
-**Terminal Shooter** adalah sebuah implementasi teknis yang menggabungkan pengembangan permainan arkade (*arcade game*) klasik dengan teknologi *Computer Vision*. Proyek ini mendemonstrasikan integrasi *real-time* antara pemrosesan citra digital dan logika permainan interaktif.
+**HANDYCAT SPACE** adalah sebuah implementasi teknis yang menggabungkan pengembangan permainan arkade (*arcade game*) klasik dengan teknologi *Computer Vision*. Proyek ini mendemonstrasikan integrasi *real-time* antara pemrosesan citra digital dan logika permainan interaktif.
 
 Pengguna mengendalikan pesawat dalam permainan menggunakan deteksi gerakan tangan (*hand tracking*) melalui webcam, menghilangkan kebutuhan akan perangkat input konvensional seperti *keyboard* atau *mouse*.
 
