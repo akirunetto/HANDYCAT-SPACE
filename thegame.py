@@ -29,7 +29,7 @@ WIDTH = 800
 HEIGHT = 800
 GAME_SURFACE = pygame.Surface((WIDTH, HEIGHT))
 SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("HAND TRACKING: TERMINAL SHOOTER")
+pygame.display.set_caption("HANDYCAT SPACE")
 
 # --- KONFIGURASI GAMEPLAY ---
 BOSS_SCORE_THRESHOLD = 10000
@@ -725,8 +725,8 @@ def reset_game():
     player = Player(); all_sprites.add(player)
 
 def draw_main_menu(surface):
-    draw_text_centered(surface, "TERMINAL SHOOTER", TITLE_FONT, NEON_GREEN, 150)
-    draw_text_centered(surface, "HAND CONTROL EDITION", UI_FONT, NEON_CYAN, 200)
+    draw_text_centered(surface, "HANDYCAT SPACE", TITLE_FONT, NEON_GREEN, 150)
+    draw_text_centered(surface, "FIGHT ALIEN CATS!!!", UI_FONT, NEON_CYAN, 200)
     options = ["INITIATE LAUNCH", "TRAINING MODULE", "TERMINATE SYSTEM"]
     for i, option in enumerate(options):
         color = NEON_RED if i == menu_selection else WHITE
